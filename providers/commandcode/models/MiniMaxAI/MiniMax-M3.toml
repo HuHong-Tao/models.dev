@@ -1,4 +1,6 @@
 base_model = "minimax/MiniMax-M3"
 
+# reasoning_options match peer-relay consensus (crossmodel, same base_model)
+
 [[reasoning_options]]
 type = "toggle"

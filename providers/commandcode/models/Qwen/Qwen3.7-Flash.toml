@@ -1,4 +1,7 @@
 base_model = "alibaba/qwen3.7-flash"
 
+# reasoning_options match peer-relay consensus (kilo, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["none", "high"]

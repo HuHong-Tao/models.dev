@@ -1,4 +1,7 @@
 base_model = "thinkingmachines/inkling"
 
+# reasoning_options match peer-relay consensus (edenai, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["none", "minimal", "low", "medium", "high", "max"]

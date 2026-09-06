@@ -1,4 +1,6 @@
 base_model = "deepseek/deepseek-v4-flash"
 
+# reasoning_options match peer-relay consensus (inferx, same base_model)
+
 [[reasoning_options]]
 type = "toggle"

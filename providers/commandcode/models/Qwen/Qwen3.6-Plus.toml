@@ -1,4 +1,6 @@
 base_model = "alibaba/qwen3.6-plus"
 
+# reasoning_options match peer-relay consensus (crossmodel, same base_model)
+
 [[reasoning_options]]
 type = "toggle"

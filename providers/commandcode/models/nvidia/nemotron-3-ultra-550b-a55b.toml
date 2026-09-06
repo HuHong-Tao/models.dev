@@ -1,4 +1,6 @@
 base_model = "nvidia/nemotron-3-ultra-550b-a55b"
 
+# reasoning_options match peer-relay consensus (baseten, same base_model)
+
 [[reasoning_options]]
 type = "toggle"

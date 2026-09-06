@@ -1,4 +1,7 @@
 base_model = "moonshotai/kimi-k3"
 
+# reasoning_options match peer-relay consensus (aiand, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["low", "high", "max"]

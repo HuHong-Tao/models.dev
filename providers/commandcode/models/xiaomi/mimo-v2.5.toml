@@ -1,4 +1,6 @@
 base_model = "xiaomi/mimo-v2.5"
 
+# reasoning_options match peer-relay consensus (aihubmix, same base_model)
+
 [[reasoning_options]]
 type = "toggle"

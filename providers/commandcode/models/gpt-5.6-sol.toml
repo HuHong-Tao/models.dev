@@ -1,4 +1,7 @@
 base_model = "openai/gpt-5.6-sol"
 
+# reasoning_options match peer-relay consensus (agentrouter, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["none", "low", "medium", "high", "xhigh", "max"]

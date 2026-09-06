@@ -1,4 +1,7 @@
 base_model = "alibaba/qwen3.8-27b"
 
+# reasoning_options match peer-relay consensus (aiand, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["none", "low", "medium", "xhigh"]

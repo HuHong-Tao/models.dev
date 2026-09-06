@@ -1,4 +1,10 @@
 base_model = "deepseek/deepseek-v4-pro"
 
+# reasoning_options match peer-relay consensus (alibaba-cn, same base_model)
+
 [[reasoning_options]]
 type = "toggle"
+
+[[reasoning_options]]
+type = "effort"
+values = ["high", "max"]

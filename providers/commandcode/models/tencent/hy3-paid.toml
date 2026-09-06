@@ -1,5 +1,8 @@
 base_model = "tencent/hy3"
 name = "Hunyuan HY3 Paid"
 
+# reasoning_options match peer-relay consensus (crossmodel, same base_model)
+
 [[reasoning_options]]
-type = "toggle"
+type = "effort"
+values = ["none", "low", "high"]
