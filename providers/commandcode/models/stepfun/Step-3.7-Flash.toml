@@ -1,6 +1,6 @@
 base_model = "stepfun/step-3.7-flash"
 
-# reasoning_options match peer-relay consensus (ambient, same base_model)
+# reasoning_options match first-party stepfun surface (same base_model)
 
 [[reasoning_options]]
 type = "effort"

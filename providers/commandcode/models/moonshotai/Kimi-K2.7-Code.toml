@@ -1,6 +1,5 @@
 base_model = "moonshotai/kimi-k2.7-code"
 
-# reasoning_options match peer-relay consensus (aihubmix, same base_model)
+# reasoning_options match first-party moonshotai surface (same base_model)
 
-[[reasoning_options]]
-type = "toggle"
+reasoning_options = []

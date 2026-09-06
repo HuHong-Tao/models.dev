@@ -1,6 +1,6 @@
 base_model = "moonshotai/kimi-k2.6"
 
-# reasoning_options match peer-relay consensus (alibaba-token-plan-cn, same base_model)
+# reasoning_options match first-party ofox surface (same base_model)
 
 [[reasoning_options]]
 type = "toggle"

@@ -1,6 +1,6 @@
 base_model = "xai/grok-4.5"
 
-# reasoning_options match peer-relay consensus (cloudflare-ai-gateway, same base_model)
+# reasoning_options match first-party xai surface (same base_model)
 
 [[reasoning_options]]
 type = "effort"

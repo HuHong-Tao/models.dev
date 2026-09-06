@@ -1,7 +1,15 @@
 base_model = "alibaba/qwen3.8-max-0902"
 
-# reasoning_options match peer-relay consensus (edenai, same base_model)
+# reasoning_options match first-party ofox surface (same base_model)
+
+[[reasoning_options]]
+type = "toggle"
 
 [[reasoning_options]]
 type = "effort"
-values = ["minimal", "low", "medium", "high", "xhigh"]
+values = ["low", "medium", "xhigh"]
+
+[[reasoning_options]]
+type = "budget_tokens"
+min = 0
+max = 262144

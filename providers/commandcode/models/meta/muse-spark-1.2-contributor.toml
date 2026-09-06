@@ -1,7 +1,7 @@
 base_model = "meta/muse-spark-1.2"
 name = "Muse Spark 1.2 Contributor"
 
-# reasoning_options match peer-relay consensus (empiriolabs, same base_model)
+# reasoning_options match first-party meta surface (same base_model)
 
 [[reasoning_options]]
 type = "effort"

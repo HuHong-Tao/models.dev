@@ -1,6 +1,9 @@
 base_model = "moonshotai/kimi-k3"
 
-# reasoning_options match peer-relay consensus (aiand, same base_model)
+# reasoning_options match first-party moonshotai surface (same base_model)
+
+[[reasoning_options]]
+type = "toggle"
 
 [[reasoning_options]]
 type = "effort"

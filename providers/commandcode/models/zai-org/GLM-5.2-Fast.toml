@@ -1,7 +1,7 @@
 base_model = "zhipuai/glm-5.2"
 name = "GLM-5.2 Fast"
 
-# reasoning_options match peer-relay consensus (aihubmix, same base_model)
+# reasoning_options match first-party zai surface (same base_model)
 
 [[reasoning_options]]
 type = "effort"

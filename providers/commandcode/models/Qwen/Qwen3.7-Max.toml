@@ -1,6 +1,10 @@
 base_model = "alibaba/qwen3.7-max"
 
-# reasoning_options match peer-relay consensus (alibaba-coding-plan, same base_model)
+# reasoning_options match first-party alibaba-cn surface (same base_model)
 
 [[reasoning_options]]
 type = "toggle"
+
+[[reasoning_options]]
+type = "budget_tokens"
+max = 262144
