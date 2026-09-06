@@ -1,7 +1,9 @@
-base_model = "thinkingmachines/inkling-small"
+# wire (probed 2026-09-06 on api.commandcode.ai): OpenAI-compatible `reasoning_effort`
+# accepts low|medium|high|xhigh|max; "none" is rejected with HTTP 400.
+# No on/off toggle exposed - reasoning stays available at every level.
 
-# reasoning_options match peer-relay consensus (edenai, same base_model)
+base_model = "thinkingmachines/inkling-small"
 
 [[reasoning_options]]
 type = "effort"
-values = ["none", "minimal", "low", "medium", "high", "max"]
+values = ["low", "medium", "high", "xhigh", "max"]
